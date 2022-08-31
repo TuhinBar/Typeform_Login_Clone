@@ -1,0 +1,117 @@
+body{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.header{
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#query{
+    margin: 0px 5px;
+    font-size: small;
+}
+#login_btn{
+    padding: 7px 9px;
+    background-color: white;
+    border: 1px solid rgb(98, 97, 97);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px;
+}
+#content_text{
+    margin: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    line-height: 2rem;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+#email, #password{
+    position: relative;
+    margin: 5px 0px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 3px;
+}
+::placeholder{
+    opacity: 0.5;
+}
+.terms{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    margin: 10px 35px;
+}
+.policy{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 35px;
+}
+.policylabel, #privacylabel{
+    margin-left: 10px;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#createaccount{
+    padding: 8px 10px;
+    width: 85%;
+    font-size: large;
+    background-color: #262627;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alternates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#google, #micro{
+    margin: 10px 0px;
+    padding: 8px 10px;
+    width: 85%;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    cursor: pointer;
+}
